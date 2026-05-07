@@ -8,6 +8,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description="${mod_description}"
+mixins=["testmod.mixins.json"]
 
 [[dependencies.${mod_id}]]
 modId="neoforge"

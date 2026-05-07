@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.testmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemInHandRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
